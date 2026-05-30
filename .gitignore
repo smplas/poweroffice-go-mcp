@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+.DS_Store
+
+# Editor / OS junk
+.vscode/
+.idea/
+~$*
+*.swp
+
+# Local Claude/agent state
+.claude/
+
+# Audit log (per-machine, not source-controlled)
+audit.log

@@ -1,0 +1,38 @@
+{
+  "name": "poweroffice-go-mcp",
+  "version": "0.3.0",
+  "description": "MCP server for PowerOffice Go — draft-only integration for AI assistants",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "poweroffice-go-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^4.1.7",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.7"
+  },
+  "overrides": {
+    "fast-uri": "^3.1.2",
+    "hono": "^4.12.23",
+    "ip-address": "^10.2.0",
+    "qs": "^6.15.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
