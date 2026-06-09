@@ -215,6 +215,22 @@ Thank you to **CMS Kluge Advokatfirma**, in particular Ove André Vanebo and Ber
 
 ---
 
+## Terms, data, and privacy
+
+Use of the PowerOffice Go API through this integration is governed by the [Visma Developer Terms](https://developer.visma.com/). Production data access requires the customer's authorisation, and the integration's registered "intended use" forms part of that agreement.
+
+For any customer-facing deployment, SmplCo AS provides its own end-user terms and privacy policy describing the integration and the data it processes. In line with the Developer Terms, Data is kept to the minimum required, used only for the customer's own purposes, not shared with third parties except as needed to operate the integration, and deleted when the customer's use ends.
+
+Important: when the integration is driven by a cloud LLM, tool inputs and outputs are processed by that model provider (see Setup A under [Data flow](#data-flow)). For real personal data, use an enterprise LLM plan with a data processing agreement, or a local model, as described in [SECURITY.md](./SECURITY.md).
+
+---
+
+## Trademarks
+
+PowerOffice Go and Visma are trademarks of Visma AS. This is an independent integration built by SmplCo AS. It is not made, sponsored, or endorsed by Visma AS or PowerOffice AS.
+
+---
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).

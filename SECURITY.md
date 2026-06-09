@@ -48,3 +48,4 @@ The server deliberately does **not** expose tools that would let an AI agent tak
 - Treat `~/.poweroffice-mcp/audit.log` as containing personal data. Restrict access and define your own retention period.
 - Use a PowerOffice Go demo or sandbox environment when experimenting.
 - Use the Anthropic / OpenAI / etc. Enterprise plans (or local models) when handling real customer data, so the underlying model provider does not retain or train on your data.
+- Treat your PowerOffice Go app, client, and subscription keys (and any tokens) as Visma "Confidential Information" under the Developer Terms: keep them in environment variables, never commit them to source control, and never share them.
